@@ -57,6 +57,11 @@ ihist<-plot_ly(alpha = 0.6) %>%
 
 ihist
 ```
+```{r}
+install.packages("flexdashboard")
+library(flexdashboard)
+knitr::opts_chunk$set(echo=TRUE)
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
